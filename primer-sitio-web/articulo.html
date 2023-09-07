@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer pagina</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Inicio Header -->
+    <header class="header">
+        <h1 class="header__title">Mi Blog</h1>
+    </header>
+    <nav class="header__navbar">
+        <ul class="header__navbar-list">
+            <li class="navbar__navlinks"><a href="#">Principal</a></li>
+            <li class="navbar__navlinks"><a href="#">Ayuda</a></li>
+            <li class="navbar__navlinks"><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- Fin Header -->
+    <hr class="linebreak" />
+    <!-- Inicio Main -->
+    <main class="main">
+        <section class="main__section">
+            <article class="section__article">
+                <time class="article__datetime" datetime="30-08-2022">Miércoles, 30 de Agosto de 2022</time>
+                <div class="container">
+                    <hgroup class="article__group-title">
+                        <h1 class="article__title">Título del Primer Artículo.</h1>
+                        <!-- <h2 class="article__subtitle">Subtítulo del Primer Articulo</h2> -->
+                    </hgroup>
+                    <div class="container_paragraph">
+                        <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, assumenda
+                            exercitationem praesentium
+                            deserunt quasi incidunt laudantium perferendis ipsum pariatur aliquid sequi expedita
+                            doloribus
+                            aperiam maxime mollitia, suscipit sapiente dolore neque earum! A, iusto nulla? Odio quas
+                            expedita
+                            labore itaque rem cum, at voluptatum vero veritatis.</p>
+                        <img class="article__img" src="./assets/img/foto-ejemplo1.jpg" alt="foto-ejemplo1">
+                    </div>
+                    <footer class="article__footer">
+                        <cite class="article__cite">
+                            <small>
+                                <p class="article__cite-text">Comentarios (0)</p>
+                            </small>
+                        </cite>
+                    </footer>
+                    <address>
+                        <a href="http://google.com.ar" target="_blank" rel="noopener noreferrer">Ir al Buscador</a>
+                    </address>
+                </div>
+            </article>
+
+            <article class="section__article">
+                <time class="article__datetime" datetime="30-08-2022">Miércoles, 30 de Agosto de 2022</time>
+                <div class="container">
+                    <hgroup class="article__group-title">
+                        <h1 class="article__title">Título del Segundo Artículo.</h1>
+                        <!-- <h2 class="article__subtitle">Subtítulo del Segundo Artículo.</h2> -->
+                    </hgroup>
+                    <div class="container_paragraph">
+                        <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, assumenda
+                            exercitationem praesentium
+                            deserunt quasi incidunt laudantium perferendis ipsum pariatur aliquid sequi expedita
+                            doloribus
+                            aperiam maxime mollitia, suscipit sapiente dolore neque earum! A, iusto nulla? Odio quas
+                            expedita
+                            labore itaque rem cum, at voluptatum vero veritatis.</p>
+                        <img class="article__img" src="./assets/img/foto-ejemplo2.jpg" alt="foto-ejemplo2">
+                    </div>
+                    <footer class="article__footer">
+                        <cite class="article__cite">
+                            <small>
+                                <p class="article__cite-text">Comentarios (0)</p>
+                            </small>
+                        </cite>
+                    </footer>
+                    <address>
+                        <a href="http://google.com.ar" target="_blank" rel="noopener noreferrer">Ir al Buscador</a>
+                    </address>
+                </div>
+            </article>
+        </section>
+
+        <!-- Inicio Aside -->
+        <aside class="main__aside">
+            <article class="aside__article">
+                <div class="wrapper">
+                    <h3 class="aside__title">Archivo</h3>
+                    <ul class="aside__list">
+                        <li class="aside__item">
+                            <div class="aside__item-link">
+                                <p>
+                                    <span> > </span>
+                                    2011 (2)
+                                </p>
+                            </div>
+                            <ul class="aside__nested-list">
+                                <li class="aside__nested__item">
+                                    <div class="aside__nested__item-link">
+                                        <p>
+                                            <span> > </span>
+                                            Julio (2)
+                                        </p>
+                                    </div>
+                                    <ul class="aside__subnested-list">
+                                        <li class="aside__subnested-link">Lorem, ipsum 2</li>
+                                        <li class="aside__subnested-link">Lorem, ipsum 1</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="aside__article">
+                <div class="wrapper">
+                    <h3 class="aside__title">Acerca de</h3>
+                    <p class="aside-text">Cinthia</p>
+                    <p><a class="aside__item-text" href="#">Ver mi perfil</a>
+                        <span> > </span>
+                    </p>
+                </div>
+            </article>
+        </aside>
+        <!-- Fin Aside -->
+    </main>
+    <!-- Fin Main -->
+
+
+    <hr class="linebreak" />
+    <footer class="footer">
+        <p>Derechos Reservados 2010 - 2011</p>
+    </footer>
+</body>
+
+</html>
